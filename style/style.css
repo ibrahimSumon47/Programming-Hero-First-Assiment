@@ -29,7 +29,7 @@ nav ul {
     align-items: center;
 }
 
-.btn-hire-me {
+.btn-primary {
     border: 0;
     font-size: 25px;
     font-weight: 800;
@@ -84,7 +84,8 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
-section{
+
+section {
     margin-top: 130px;
 }
 
@@ -112,12 +113,14 @@ section{
 .info-title {
     font-weight: 400;
     font-size: 20px;
+    border: solid;
 }
 
 .info-description {
     font-weight: 700;
     font-size: 20px;
     margin: 15px;
+    border: solid;
 }
 
 /* What I do style */
@@ -129,9 +132,10 @@ section{
 .skill-title {
     font-weight: 700;
     font-size: 20px;
-    padding: 20px;
+    padding-right: 50px;
     margin-top: 30px;
     margin-bottom: 20px;
+    text-align: left;
 }
 
 .skill-description {
@@ -145,4 +149,60 @@ section{
     text-align: left;
     padding: 30px;
     margin: 24px;
+}
+
+/* Resume Style */
+
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+
+.resume-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .tittle{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume .sub-tittle{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.resume .description{
+    color: #757575;
+}
+
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.contact .section-title{
+    text-align: left;
+}
+
+.contact input, textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input{
+    height: 64px;
 }
