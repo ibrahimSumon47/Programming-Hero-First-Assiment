@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header and nav style */
+.nav-title {
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.text-sumon {
+    color: #c40afd;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+nav li {
+    list-style: none;
+    margin: 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.btn-hire-me {
+    border: 0;
+    font-size: 25px;
+    font-weight: 800;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: whitesmoke;
+}
+
+.banner {
+    margin: 0 226px;
+    display: flex;
+    align-items: center;
+}
+
+.hi {
+    font-weight: 600;
+    font-size: 33px;
+    margin-bottom: 10px;
+}
+
+.athorized {
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+.p-dis {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: rgb(2, 0, 7);
+    display: flex;
+}
+
+.header-background {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+.image {
+    width: 584px;
+    height: 676px;
+    left: 978px;
+    top: 161px;
+    background-repeat: no-repeat;
+}
+
+/* Main Style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About section style */
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.about {
+    margin-top: 130px;
+    background: #fff8f3;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.info-title {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.info-description {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 15px;
+}
